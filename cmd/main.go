@@ -110,7 +110,7 @@ func parseUrls() ([]string, error) {
 	if err != nil {
 		return nil, err
 	}
-	return strings.Split(string(bytes), "\n"), nil
+	return strings.Split(string(bytes), "\r\n"), nil
 }
 
 func main() {
