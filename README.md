@@ -1,3 +1,5 @@
+Default port is 8080
+
 **Endpoints:**
 
 /latency?q={link} - get latency in ms
